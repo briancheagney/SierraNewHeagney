@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>1</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -659,6 +659,10 @@
           <UnloadedRoom>
             <Description xml:space="preserve">Workshop Room</Description>
             <Number>2</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>3</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -2135,6 +2139,53 @@
                 <Width>150</Width>
                 <ZOrder>2</ZOrder>
               </GUILabel>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>200</Height>
+              <ID>9</ID>
+              <Left>0</Left>
+              <Name>gGui1</Name>
+              <OnClick>gGui1_OnClick</OnClick>
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>320</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>23</Height>
+                <ID>0</ID>
+                <Image>0</Image>
+                <Left>103</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>2167</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Button1_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Start</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>17</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>96</Width>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -5168,7 +5219,21 @@ See KeyboardMovement.txt for details.
           </AudioClipFolder>
           <AudioClipFolder Name="Sounds">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>WAV</FileType>
+                <ID>0</ID>
+                <Index>1</Index>
+                <ScriptName>aCraftnoise</ScriptName>
+                <SourceFileName>D:\DDocuments\FA2024\craftnoise.wav</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-08-28 12:07:02Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InGameEXE</DefaultBundlingType>
               <DefaultPriority>Inherit</DefaultPriority>
