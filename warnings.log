@@ -1,7 +1,1 @@
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
-Game : (room:1) Dialog: all options have been turned off, stopping dialog.
+Game : (room:1)[R 38] SetObjectFrame: invalid loop number used for view 3 (10, range is 0 - 0)
